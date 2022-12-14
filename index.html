@@ -1,186 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./index.css" />
-  </head>
-  <body>
-    <div class="conatainer">
-      <div class="margin">
-        <div class="headwhite">
-          <!-- white space -->
-        </div>
-        <!-- banner section start -->
-        <div class="banner">
-          <img src="./images/wild honey banner.jpg" width="100%" alt="" />
-        </div>
-        <!-- banner section ended -->
-        <!-- about section start -->
-        <div class="flexdirection">
-          <div class="about">
-            <img
-              src="./images/jay-r-2BkM5axSuLY-unsplash (2.jpg"
-              width="100%"
-              alt=""
-            />
-          </div>
-          <div class="about1">
-            <h5>Honey from the Hive :</h5>
-            <h6>A look into the process of acquiring honey</h6>
-            <p>
-              From the western ghats rainforest where flowers spread their
-              aromatic scents for bees; results a masterpiece for human taste
-              buds. With an estimated generation worth of expertise, oorla
-              sources purely authentic . .... <b>Read more</b>
-            </p>
-            <button>Shop Now</button>
-          </div>
-        </div>
-        <!-- about section ended -->
-        <!-- shop header section start -->
-        <div class="shop">
-          <h3 style="text-align: center">Shop our purities here!</h3>
-        </div>
-        <!-- shop header section ended -->
-        <div class="shopheadings">
-          <div>
-            <h3>Wild Honey</h3>
-          </div>
-          <div>
-            <h3 style="font-weight: 600; color: #ff960d">Top Picks</h3>
-          </div>
-          <div>
-            <h3>Honey Soacked</h3>
-          </div>
-        </div>
-        <!-- shop header section ended -->
-        <div class="shopcard">
-          <div>
-            <img src="./images/fbdfbdzd (2).jpg" alt="" />
-            <h3>Kombu wild honey</h3>
-          </div>
-          <div>
-            <img src="./images/fig (1).jpg" alt="" />
-            <h3>Grass Hill Wild Honey</h3>
-          </div>
-          <div>
-            <img src="./images/honey_shivan (1).jpeg" alt="" />
-            <h3>Gulkand</h3>
-          </div>
-        </div>
-        <!-- shop header section ended -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+     <div class="container">
 
-        <div class="shopabout">
-          <div class="shop1">
-            <h2 style="color: #ff960d">
-              "Each season, our honey has its own distinct <br />
-              flavour and texture."
-            </h2>
-            <h6 style="font-size: 17px; color: #616161; font-weight: 100">
-              We don't heat or pasteurise our raw, 100% pure forest honey—so it
-              varies according to what flowers <br />
-              were blooming when we made it. This way we can preserve all the
-              good bacteria, enzymes and healthy vitamins while keeping
-              everything else intact too. We remove a small portion of honey
-              from its comb without heating or pasteurising it; this ensures
-              that we preserve all the great-tasting healthy ingredients
-              contained within it.
-            </h6>
-          </div>
-          <div class="shop2">
-            <img src="./images/maxresdefault (1).jpg" alt="" />
-          </div>
+           
+           <div class="formvalidation">
+            <h4 style="text-align: center;color: brown;">Form validation</h4>
+           <label for="text">Username</label>
+           <input type="text" placeholder="Esername" id="username">
+           <p id="error"></p>
+           <label for="email">Email</label>
+           <input type="email" placeholder="Email" id="email">
+           <p id="error1"></p>
+           <label for="text">Password</label>
+           <input type="password" placeholder="password" id="password">
+           <p id="error2"></p>
+           <label for="text">Confirm password</label>
+           <input type="password" placeholder="Confirm password" id="password1">
+           <p id="error3"></p>
+           <button onclick="validate()">Submit</button>
         </div>
 
-        <div class="shopabout1">
-          <div class="shop3">
-            <img src="./images/fbdfbdzd (2).jpg" alt="" />
-          </div>
-          <div class="shop4">
-            <h2 style="color: #ff960d">Why is Honey worth the effort?</h2>
-            <p style="font-size: 17px; color: #616161">
-              It is not just honey but every globule of it represents one drop
-              of blood in our body; tribals say! A practice passed on from
-              generation to generation, these tribals go through a lot of
-              struggle to acquire the honey with a lot of effort to bear fruit.
-              But they won’t stop, they can’t give up lest they starve.
-            </p>
-          </div>
-        </div>
-        <!-- shop about end -->
-        <div class="honeylogo">
-          <div>
-            <img src="./images/bee.png" alt="" />
-            <h6>Cruelty-Free Honey</h6>
-          </div>
-          <div>
-            <img src="./images/leaf (1).png" alt="" />
-            <h6>
-              100% Natural <br />
-              Raw & Unfiltered
-            </h6>
-          </div>
-          <div>
-            <img src="./images/honey.png" alt="" />
-            <h6>Raw & Unfiltered</h6>
-          </div>
-        </div>
-        <!-- logo section ended -->
-        <div class="pure">
-          <h2 style="color: #ff9100; padding-top: 20px">
-            Pure Honey; What you need to know?
-          </h2>
-          <p style="color: #616161">
-            Hailing mainly from inside the densely wooded Western Ghats of
-            India, our natural honey products are seasonally diverse <br />
-            because they're processed using old-age traditional practices that
-            allow every kind of flavour to come out. <br />
-            By squeezing it out directly and constantly stirring up the mix
-            without letting it ferment,<br />
-            Oorla makes sure all living bees get a fair share by making it
-            possible for them to continue building their colonies near potential
-            sources of food! <br />
-            As a result, these forests provide us with some precious nectar full
-            of live enzymes found in no other liquids available commercially; an
-            irreplaceable reservoir for this <br />
-            species instrumental in nature's creation stories.
-          </p>
-        </div>
 
-        <!-- footer section started -->
-        <div class="footer">
-          <div>
-            <img src="./images/fbdfbdzd (2).jpg" alt="" />
-            <h3>Harish</h3>
-            <h5>Wow Ada then ada</h5>
-            <p>
-              "Everyone here loved the freshness and sweetness of the wild
-              honey, kids loved it, great work guys."
-            </p>
-          </div>
-          <div>
-            <img src="./images/fig (1).jpg" alt="" />
-            <h3>Chithara.T</h3>
-            <h5>Bottle romba height ah irukku</h5>
-            <p>
-              "Everyone here loved the freshness and sweetness of the wild
-              honey, kids loved it, great work guys."
-            </p>
-          </div>
-          <div>
-            <img src="./images/honey_shivan (1).jpeg" alt="" />
-            <h3>Gayathiri</h3>
-            <h5>Thean tha but honey illa</h5>
-            <p>
-              "Everyone here loved the freshness and sweetness of the wild
-              honey, kids loved it, great work guys."
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
+     </div>
+    
+</body>
+   <script src="./index.js"></script>
+</html> 
